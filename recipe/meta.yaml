@@ -14,9 +14,9 @@ source:
   sha256: daf8e18918d08caaed07ac63ebf0afd0d42164629906558d597a30b5b93abfc8
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
-  skip: true  # [win32]
+  number: 1000
 
   rpaths:
     - lib/R/lib/
@@ -56,8 +56,7 @@ about:
   summary: An integrated set of tools for the representation, visualization, analysis, and simulation
     of network data. For an introduction, type help(package='statnet').
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
