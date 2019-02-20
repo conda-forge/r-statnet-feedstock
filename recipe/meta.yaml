@@ -1,4 +1,4 @@
-{% set version = '2016.9' %}
+{% set version = "2018.10" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/statnet_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/statnet/statnet_{{ version }}.tar.gz
-  sha256: daf8e18918d08caaed07ac63ebf0afd0d42164629906558d597a30b5b93abfc8
+  sha256: 387ae8294b6d41d747a62d726a21e10a70ad2a9e612c311658e97f6ce54214ec
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
 
   rpaths:
     - lib/R/lib/
