@@ -1,3 +1,7 @@
+<!--
+# -*- mode: jinja -*-
+-->
+
 About r-statnet
 ===============
 
@@ -7,7 +11,7 @@ Package license: GPL-3
 
 Feedstock license: BSD 3-Clause
 
-Summary: An integrated set of tools for the representation, visualization, analysis, and simulation of network data. For an introduction, type help(package='statnet').
+Summary: Statnet is a collection of packages for statistical network analysis that are  designed to work together because they share common data representations and 'API'  design.  They provide an integrated set of tools for the representation,  visualization, analysis, and simulation of many different forms of network data.   This package is designed to make it easy to install and load the  key 'statnet' packages in a single step.  Learn more about 'statnet'  at <http://www.statnet.org>.  For an introduction to functions in this package,  type help(package='statnet').
 
 
 
@@ -48,6 +52,8 @@ conda search r-statnet --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -103,3 +109,10 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@conda-forge/r](https://github.com/conda-forge/r/)
+* [@stevierene82](https://github.com/stevierene82/)
+
