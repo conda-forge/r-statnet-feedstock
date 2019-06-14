@@ -25,24 +25,24 @@ requirements:
     - {{posix}}zip               # [win]
   host:
     - r-base
-    - r-ergm >=3.9.4
+    - r-ergm >=3.10.4
     - r-ergm.count >=3.3
-    - r-network >=1.13
-    - r-networkdynamic >=0.9
+    - r-network >=1.15
+    - r-networkdynamic >=0.10
     - r-sna >=2.4
-    - r-statnet.common >=4.1.4
-    - r-tergm >=3.5.2
-    - r-tsna >=0.2
+    - r-statnet.common >=4.2
+    - r-tergm >=3.6.1
+    - r-tsna >=0.3
   run:
     - r-base
-    - r-ergm >=3.9.4
+    - r-ergm >=3.10.4
     - r-ergm.count >=3.3
-    - r-network >=1.13
-    - r-networkdynamic >=0.9
+    - r-network >=1.15
+    - r-networkdynamic >=0.10
     - r-sna >=2.4
-    - r-statnet.common >=4.1.4
-    - r-tergm >=3.5.2
-    - r-tsna >=0.2
+    - r-statnet.common >=4.2
+    - r-tergm >=3.6.1
+    - r-tsna >=0.3
 
 test:
   commands:
