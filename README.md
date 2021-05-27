@@ -5,11 +5,9 @@ Home: http://statnet.org
 
 Package license: GPL-3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-statnet-feedstock/blob/master/LICENSE.txt)
 
 Summary: Statnet is a collection of packages for statistical network analysis that are  designed to work together because they share common data representations and 'API'  design.  They provide an integrated set of tools for the representation,  visualization, analysis, and simulation of many different forms of network data.   This package is designed to make it easy to install and load the  key 'statnet' packages in a single step.  Learn more about 'statnet'  at <http://www.statnet.org>.  For an introduction to functions in this package,  type help(package='statnet').
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-statnet` from the `conda-forge` channel can be achieved by adding 
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-statnet` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
