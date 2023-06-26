@@ -1,11 +1,11 @@
-About r-statnet
-===============
+About r-statnet-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-statnet-feedstock/blob/main/LICENSE.txt)
 
 Home: http://statnet.org
 
 Package license: GPL-3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-statnet-feedstock/blob/main/LICENSE.txt)
 
 Summary: Statnet is a collection of packages for statistical network analysis that are  designed to work together because they share common data representations and 'API'  design.  They provide an integrated set of tools for the representation,  visualization, analysis, and simulation of many different forms of network data.   This package is designed to make it easy to install and load the  key 'statnet' packages in a single step.  Learn more about 'statnet'  at <http://www.statnet.org>.  For an introduction to functions in this package,  type help(package='statnet').
 
