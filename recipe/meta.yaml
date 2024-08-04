@@ -1,6 +1,5 @@
 {% set version = "2019.6" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-statnet
@@ -13,8 +12,7 @@ source:
   sha256: 0903e1a81ed1b6289359cefd12da1424c92456d19e062c3f74197b69e536b29d
 
 build:
-  merge_build_host: True  # [win]
-  number: 4
+  number: 5
   noarch: generic
   rpaths:
     - lib/R/lib/
